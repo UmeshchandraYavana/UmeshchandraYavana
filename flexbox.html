@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex div{
+            background: cornflowerblue;
+            padding: 2%;
+            margin: 2%;
+            border: 2px solid black;
+        }
+        *{
+            background: black;
+        }
+        .flex{
+            display: flex;
+            /*row||row-revrce||coloum||coloum-revrce*/
+            flex-direction: row;
+            /*center||flex-start||flex-end||space-around||space-between||space-evenly*/
+            justify-content: center;
+            /*warp||nowarp||warp-reverce*/
+            flex-wrap: wrap;
+            /*center||flex-start||flex-end*/
+            align-items: flex-start;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div>HARISH</div>
+        <div>UMESH</div>
+        <div>CHANDRA</div>
+    </div>
+</body>
+</html>
